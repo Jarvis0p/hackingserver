@@ -16,7 +16,7 @@ mkdir tools;
 
 #go
 wget 'https://go.dev/dl/go1.22.1.linux-amd64.tar.gz'
-sudo tar -C /usr/local -xzf go1.20.5.linux-amd64.tar.gz;
+sudo tar -C /usr/local -xzf go1.22.1.linux-amd64.tar.gz;
 echo "
 #My Paths
 export PATH=\$PATH:/usr/local/bin:/usr/local/go/bin:/home/$(whoami)/go/bin:/home/$(whoami)/.local/bin" >> .bashrc ;
